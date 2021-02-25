@@ -12,8 +12,7 @@ jobs:
     steps: 
       - run:
           name: Print Hello
-          command:
-            echo "hello"
+          command: echo "hello World!!!!!!"
 
 workflows:
   # Name the workflow "welcome"
