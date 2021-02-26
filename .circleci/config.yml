@@ -22,7 +22,8 @@ jobs:
     steps:
       - run:
           name: Print World
-          command: echo $MY_NAME
+          command: 
+            echo $MY_NAME
 
 workflows:
   # Name the workflow "welcome"
